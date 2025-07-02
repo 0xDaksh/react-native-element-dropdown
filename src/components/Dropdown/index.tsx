@@ -5,7 +5,7 @@ import _findIndex from 'lodash/findIndex';
 import _get from 'lodash/get';
 import _isEqual from 'lodash/isEqual';
 
-import { debounce } from 'lodash';
+import debounce from 'lodash/debounce';
 import React, {
   useCallback,
   useEffect,
